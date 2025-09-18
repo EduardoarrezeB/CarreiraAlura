@@ -1,0 +1,29 @@
+package PT02;
+
+public class Ex08 {
+    public static void main(String[] args){
+        //João está desenvolvendo um sistema de segurança para uma empresa. Para acessar o sistema, o usuário precisa fornecer:
+        //
+        //Um código de acesso numérico (o código correto é 2023).
+        //
+        //Um nível de permissão numérico (os níveis válidos são 1, 2 ou 3).
+        //
+        //O sistema só permitirá o acesso se:
+        //
+        //O código de acesso estiver correto.
+        //
+        //O nível de permissão for válido (1, 2 ou 3).
+        //
+        //Caso contrário, o acesso será negado, e o programa deve informar o motivo (código incorreto, nível de permissão inválido ou ambos).
+        //
+        //Crie um programa que receba o código de acesso e o nível de permissão e exiba uma mensagem indicando se o acesso foi permitido ou negado, além do motivo, se for o caso.
+        int codigoNumerico = 2025;
+        int nivelPermissao = 0;
+
+        if(codigoNumerico == 2025 && (nivelPermissao == 1 || nivelPermissao == 2 || nivelPermissao == 3)){
+            System.out.println("Acesso permitido");
+        } else {
+            System.out.println("Não permitido");
+        }
+    }
+}

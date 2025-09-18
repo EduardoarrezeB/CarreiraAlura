@@ -1,0 +1,16 @@
+package PT02;
+
+public class Ex04 {
+    public static void main(String[] args){
+        //Carlos trabalha em uma empresa de logística que opera apenas de segunda a sexta, sem atividades nos finais de semana. Para evitar confusões, ele precisa de um programa que, ao receber um dia da semana, informe se é um dia útil ou não.
+        //
+        //Crie um programa que receba um dia da semana (em letras minúsculas) e exiba uma mensagem indicando se é um dia útil ou não.
+        String diaDaSemana = "domingo";
+
+        if (diaDaSemana != "sabado" && diaDaSemana != "domingo"){
+            System.out.println("Dia útil");
+        } else {
+            System.out.println("Dia inútil");
+        }
+    }
+}
