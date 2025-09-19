@@ -10,5 +10,6 @@ public class Ex01 {
         //Defina uma classe com os atributos nome, preço e quantidade.
         //Implemente um método que retorne o valor total do item (preço x quantidade).
         //Crie uma lista de item e calcule o valor total da compra.
+
     }
 }

@@ -12,5 +12,17 @@ public class Ex01 {
         //Subtraia a quantidade vendida do estoque se houver disponibilidade.
         //Exiba uma mensagem formatada com o saldo atual usando printf
         //Exiba um alerta “Estoque insuficiente” quando não for possível atender a venda.
+        Estoque camisa = new Estoque();
+
+        camisa.nomeProduto = "T-Shirt M Verde-Limão";
+        camisa.qtdeEstoque = 903;
+
+        camisa.vender(59);
+        camisa.vender(300);
+        camisa.vender(51);
+        camisa.vender(254);
+        camisa.vender(94);
+        camisa.vender(45);
+        camisa.vender(127);
     }
 }

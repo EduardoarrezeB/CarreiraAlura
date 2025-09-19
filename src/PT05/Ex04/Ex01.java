@@ -13,6 +13,15 @@ public class Ex01 {
         //O local do sensor.
         //A temperatura formatada com uma casa decimal.
         //Um alerta se a temperatura ultrapassar 37.5ºC.
+        Agricultura agri = new Agricultura();
 
+        System.out.println(agri);
+
+        agri.tempAtual = 37.9;
+
+        if(agri.tempAtual > 37.5){
+            System.out.println("Nova medição: "+agri.tempAtual);
+            System.out.println("A temperatura está elevada.");
+        }
     }
 }

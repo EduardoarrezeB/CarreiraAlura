@@ -11,5 +11,20 @@ public class Ex01 {
         //Defina uma classe com os atributos descrição e concluída.
         //Implemente um método que mostre a descrição da tarefa e seu status.
         //Crie uma lista de tarefas e exiba todas as tarefas cadastradas. Dica: use ArrayList.
+        Tarefas tar1 = new Tarefas();
+        Tarefas tar2 = new Tarefas();
+        Tarefas tar3 = new Tarefas();
+
+        tar1.mensagem = "Jogar o lixo pra fora";
+        tar2.mensagem = "Brincar na rua";
+        tar3.mensagem = "Lavar roupas";
+
+        tar1.concluida = false;
+        tar2.concluida = true;
+        tar3.concluida = true;
+
+        tar1.mostraTarefas();
+        tar2.mostraTarefas();
+        tar3.mostraTarefas();
     }
 }

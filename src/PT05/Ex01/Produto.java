@@ -8,7 +8,6 @@ public class Produto {
     int quantidade;
 
     public String dadosFormatados(){
-        String mensagem = "O produto: "+this.nome+" possui "+this.quantidade+" custando "+this.preco+" a unidade.";
-        return mensagem;
+        return "O produto: "+this.nome+" possui "+this.quantidade+" unidades custando R$"+this.preco+"0 a unidade.";
     }
 }

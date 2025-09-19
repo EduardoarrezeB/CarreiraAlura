@@ -10,5 +10,12 @@ public class Ex01 {
         //Represente um colaborador com os atributos nome, cargo e nivel de acesso.
         //Implemente um método que permita alterar o cargo e o nível de acesso.
         //Exiba no console as informações antes e depois da atualização.
+        Colaborador dev = new Colaborador();
+        dev.nome = "Eduardo";
+        dev.nivelDeAcesso = 2;
+        dev.cargo = "Java Developer 1";
+
+        dev.alteraCargo("Java Developer 2");
+        dev.alteraNivelAcesso(3);
     }
 }

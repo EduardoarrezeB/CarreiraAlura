@@ -14,8 +14,8 @@ public class Ex01 {
 
         con1.saldo = 1579.42;
 
-        con1.exibirSaldo();
+        System.out.println(con1.exibirSaldo());
         con1.zerarSaldo();
-        con1.exibirSaldo();
+        System.out.println(con1.exibirSaldo());
     }
 }

@@ -12,5 +12,11 @@ public class Ex01 {
         //Cobre R$ 2,50 por dia de atraso.
         //Retorne o valor total da multa.
         //Implemente um método que mostre o título e o valor da multa formatado.
+        Livro liv = new Livro();
+
+        liv.titulo = "O pequeno príncipe";
+        liv.diasAtraso = 15;
+
+        System.out.println(liv);
     }
 }

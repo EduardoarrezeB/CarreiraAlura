@@ -12,5 +12,12 @@ public class Ex01 {
         //Calcule a média das notas.
         //Exiba o nome do aluno, suas notas e a média (com uma casa decimal).
         //Indique se o aluno foi aprovado (média >= 7) ou reprovado.
+        Aluno eduardo = new Aluno();
+
+        eduardo.nome = "Eduardo";
+        eduardo.nota1 = 9;
+        eduardo.nota2 = 5;
+
+        System.out.println(eduardo.media() + " " + eduardo.aprovado());
     }
 }
